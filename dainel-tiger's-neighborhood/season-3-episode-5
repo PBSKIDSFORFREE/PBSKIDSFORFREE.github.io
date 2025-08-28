@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/PBS%20KIDS%20Logo%20Design.png?raw=true" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PBS KIDS FOR FREE - Access free educational content for children.">
+  <title>PBS KIDS FOR FREE</title>
+  <style>
+    /* Resetting default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      background-image: linear-gradient(to right, #4facfe, #00f2fe);
+    }
+
+    header {
+      background-color: #ffb6c1;
+      border-radius: 12px;
+      padding: 40px;
+      width: 80%;
+      max-width: 900px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #2a2a72;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ff6f61;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    a:hover {
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #444;
+    }
+
+    footer a {
+      color: #ff6f61;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="https://PBSKIDSFORFREE.github.io" target="_blank" rel="noopener noreferrer">PBS KIDS FOR FREE</a>
+    </h1>
+  </header>
+  <center>
+    <h3>Dainel Tiger's Neighborhood</h3>
+    <h1>Season 3 Episode 5</h1>
+    
+  </center>
+</body>
+</html>
