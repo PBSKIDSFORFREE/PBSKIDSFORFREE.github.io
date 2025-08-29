@@ -1,136 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/PBS%20KIDS%20Logo%20Design.png?raw=true" type="image/x-icon">
+  <!-- Favicon -->
+  <link rel="icon" href="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/PBS%20KIDS%20Logo%20Design.png?raw=true" type="image/png">
+
+  <!-- Meta -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="PBS KIDS FOR FREE - Access free educational content for children.">
-  <title>PBS KIDS FOR FREE</title>
-    <style>
-  /* Container styling */
-  .embed-container {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    font-family: Arial, sans-serif;
-  }
+  <title>Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE</title>
 
-  /* Label/title */
-  .embed-container h2 {
-    font-size: 20px;
-    margin-bottom: 12px;
-    color: #333;
-  }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-  /* Textarea box */
-  #textToCopy {
-    width: 100%;
-    height: 160px;
-    padding: 12px;
-    font-family: monospace;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background: #fff;
-    resize: none;
-    box-sizing: border-box;
-    transition: border-color 0.3s;
-  }
+  <!-- External CSS (from GitHub Pages via jsDelivr) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/styles.css">
 
-  #textToCopy:focus {
-    border-color: #4a90e2;
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(74,144,226,0.2);
-  }
+  <!-- Animate.css (via unpkg) -->
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.min.css">
 
-  /* Copy button */
-  button {
-    margin-top: 12px;
-    padding: 10px 18px;
-    background: #4a90e2;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.1s;
-  }
-
-  button:hover {
-    background: #357ABD;
-  }
-
-  button:active {
-    transform: scale(0.98);
-  }
-
-  /* Copy message */
-  #copyMessage {
-    margin-top: 10px;
-    font-size: 14px;
-    color: green;
-    font-weight: bold;
-  }
-</style>
+  <!-- Inline Style Overrides -->
   <style>
-    /* Resetting default styles */
-    * {
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: #333;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f0f8ff;
-      color: #333;
-      line-height: 1.6;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
       text-align: center;
-      background-image: linear-gradient(to right, #4facfe, #00f2fe);
     }
 
-    header {
-      background-color: #ffb6c1;
-      border-radius: 12px;
-      padding: 40px;
-      width: 80%;
-      max-width: 900px;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    h1 {
-      font-size: 3rem;
+    h1 a {
+      font-family: 'Fredoka One', cursive;
       color: #2a2a72;
-      font-weight: bold;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-    a {
       text-decoration: none;
-      color: #ff6f61;
-      font-size: 1.5rem;
-      font-weight: bold;
-      transition: color 0.3s ease, transform 0.3s ease;
+      font-size: 3rem;
     }
 
-    a:hover {
-      color: #fff;
-      transform: scale(1.1);
+    h1 a:hover {
+      color: #ff6f61;
+    }
+
+    .episode-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .episode-container h2 {
+      font-family: 'Fredoka One', cursive;
+      color: #2a2a72;
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border-radius: 12px;
+      border: none;
+      margin: 20px 0;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 12px;
+      font-family: monospace;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #f9f9f9;
+      resize: none;
+    }
+
+    button {
+      margin-top: 12px;
+      padding: 10px 20px;
+      background: #4a90e2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.1s;
+    }
+
+    button:hover { background: #357ABD; }
+    button:active { transform: scale(0.97); }
+
+    #copyMessage {
+      margin-top: 10px;
+      font-size: 14px;
+      color: green;
+      font-weight: bold;
+      display: none;
     }
 
     footer {
-      margin-top: 20px;
+      margin: 30px 0;
       font-size: 0.9rem;
-      color: #444;
     }
 
     footer a {
@@ -144,61 +115,62 @@
   </style>
 </head>
 <body>
-  <header>
+  <!-- HEADER -->
+  <header class="site-header animate__animated animate__fadeInDown">
     <h1>
       <a href="https://PBSKIDSFORFREE.github.io" target="_blank" rel="noopener noreferrer">PBS KIDS FOR FREE</a>
     </h1>
   </header>
-  <center>
-    <h3>Dainel Tiger's Neighborhood</h3>
-    <h1>Season 3 Episode 5</h1>
+
+  <!-- MAIN CONTENT -->
+  <main class="episode-container animate__animated animate__zoomIn">
+    <h2>Daniel Tiger’s Neighborhood</h2>
+    <h3>Season 3, Episode 5</h3>
+
+    <!-- Video Embed -->
+    <iframe src="https://rebrand.ly/dtns03e05" allowfullscreen></iframe>
+
+    <!-- Embed Code -->
+    <textarea id="textToCopy" readonly>
 <iframe 
-  width="1265" 
-  height="711" 
+  width="900" 
+  height="500" 
   src="https://rebrand.ly/dtns03e05" 
-  scrolling="no" 
-  marginwidth="0" 
-  marginheight="0" 
   style="border:0;" 
   allowfullscreen>
 </iframe>
-<!-- Textarea with embed code -->
-<textarea id="textToCopy" readonly style="width:100%; height:150px;">
-<iframe 
-  width="1265" 
-  height="711" 
-  src="https://rebrand.ly/dtns03e05" 
-  scrolling="no" 
-  marginwidth="0" 
-  marginheight="0" 
-  style="border:0;" 
-  allowfullscreen>
-</iframe>
-</textarea>
+    </textarea>
 
-<!-- Copy button -->
-<button onclick="copyText()">Embed to Your Website</button>
+    <!-- Copy Button -->
+    <button onclick="copyText()">Embed to Your Website</button>
+    <p id="copyMessage">Embed code copied!</p>
+  </main>
 
-<!-- Message -->
-<p id="copyMessage" style="color: green; display: none;">Embed code copied!</p>
+  <!-- FOOTER -->
+  <footer class="site-footer animate__animated animate__fadeInUp">
+    <p>Made by <a href="https://PBSKIDSFORFREE.github.io" target="_blank" rel="noopener noreferrer">PBS KIDS FOR FREE</a></p>
+  </footer>
 
-<script>
-  function copyText() {
-    const textArea = document.getElementById("textToCopy");
+  <!-- External JS -->
+  <!-- jQuery (Google Hosted Libraries) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-    // Select and copy text
-    textArea.select();
-    textArea.setSelectionRange(0, 99999); // Mobile support
+  <!-- Example External Script (GitHack, diff user’s repo) -->
+  <script src="https://raw.githack.com/jquery/jquery/main/src/core.js"></script>
 
-    navigator.clipboard.writeText(textArea.value).then(() => {
-      const message = document.getElementById("copyMessage");
-      message.style.display = "block";
-      setTimeout(() => message.style.display = "none", 2000);
-    }).catch(err => {
-      console.error("Failed to copy text: ", err);
-    });
-  }
-</script>
-</center>
+  <!-- Copy Function -->
+  <script>
+    function copyText() {
+      const textArea = document.getElementById("textToCopy");
+      textArea.select();
+      textArea.setSelectionRange(0, 99999);
+
+      navigator.clipboard.writeText(textArea.value).then(() => {
+        const message = document.getElementById("copyMessage");
+        message.style.display = "block";
+        setTimeout(() => message.style.display = "none", 2000);
+      }).catch(err => console.error("Copy failed: ", err));
+    }
+  </script>
 </body>
 </html>
