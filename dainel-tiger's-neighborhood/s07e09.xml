@@ -5,7 +5,7 @@
   <ModulePrefs 
       title="Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE" 
   />
-  <Icon src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/PBS%20KIDS%20Logo%20Design.png?raw=true"/>
+  <Icon src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/raw/refs/heads/main/favicon.ico"/>
 
   <Content type="html"><![CDATA[
     <!DOCTYPE html>
