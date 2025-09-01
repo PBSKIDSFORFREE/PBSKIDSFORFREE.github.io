@@ -8,7 +8,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>DTT S07E09</title>
+        <title>Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE</title>
       </head>
       <body>
         <!-- Output inner HTML stored in Content -->
