@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://pbskidsforfree.github.io/Tennesse-is-Talking.xsl"?>
+
 <Module>
   <ModulePrefs 
       title="Tennessee is Talking | PBS KIDS FOR FREE"
@@ -9,8 +11,6 @@
     <![CDATA[
     <html lang="en">
     <head>
-        <?xml-stylesheet type="text/xsl" href="https://pbskidsforfree.github.io/Tennesse-is-Talking.xsl"?>
-
         <link rel="icon" href="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/PBS%20KIDS%20Logo%20Design.png?raw=true" type="image/png">
 
         <meta charset="UTF-8">
