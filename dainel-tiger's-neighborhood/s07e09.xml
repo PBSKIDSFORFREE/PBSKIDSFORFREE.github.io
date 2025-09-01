@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://pbskidsforfree.github.io/s07e09.xsl"?>
 <Module>
-  <ModulePrefs title="Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE"/>
-  <Content type="html">
-    <![CDATA[ <!DOCTYPE html>
+  <ModulePrefs 
+      title="Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE" 
+  />
+  <Icon src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/PBS%20KIDS%20Logo%20Design.png?raw=true"/>
+  
+  <Content type="html"><![CDATA[ <!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- Favicon -->
