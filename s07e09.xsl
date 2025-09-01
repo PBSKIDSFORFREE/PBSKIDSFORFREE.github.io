@@ -9,6 +9,7 @@
     <html>
       <head>
         <title>Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE</title>
+        <link rel="icon" type="image/x-icon" href="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/raw/refs/heads/main/favicon.ico"/>
       </head>
       <body>
         <!-- Output inner HTML stored in Content -->
