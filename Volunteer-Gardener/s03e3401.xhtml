@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <link rel="icon"
+          href="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/PBS%20KIDS%20Logo%20Design.png?raw=true"
+          type="image/png" />
+
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PBS KIDS FOR FREE - Access free educational content for children." />
+    <title>Tennessee is Talking | PBS KIDS FOR FREE</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Roboto:wght@400;700&amp;display=swap"
+          rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.min.css" />
+
+    <style type="text/css"><![CDATA[
+      body {
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        color: #333;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      h1 a {
+        font-family: 'Fredoka One', cursive;
+        color: #2a2a72;
+        text-decoration: none;
+        font-size: 3rem;
+      }
+      h1 a:hover { color: #ff6f61; }
+      .episode-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        border-radius: 20px;
+        padding: 25px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      }
+      iframe {
+        width: 100%;
+        height: 500px;
+        border-radius: 12px;
+        border: none;
+        margin: 20px 0;
+      }
+      textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px;
+        font-family: monospace;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background: #f9f9f9;
+        resize: none;
+      }
+      button {
+        margin-top: 12px;
+        padding: 10px 20px;
+        background: #4a90e2;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.1s;
+      }
+      button:hover { background: #357ABD; }
+      button:active { transform: scale(0.97); }
+      #copyMessage {
+        margin-top: 10px;
+        font-size: 14px;
+        color: green;
+        font-weight: bold;
+        display: none;
+      }
+      footer {
+        margin: 30px 0;
+        font-size: 0.9rem;
+      }
+      footer a {
+        color: #ff6f61;
+        text-decoration: none;
+      }
+      footer a:hover { text-decoration: underline; }
+    ]]></style>
+  </head>
+
+  <body>
+    <header class="site-header animate__animated animate__fadeInDown">
+      <h1>
+        <a href="https://PBSKIDSFORFREE.github.io" target="_blank" rel="noopener noreferrer">
+          PBS KIDS FOR FREE
+        </a>
+      </h1>
+<h1>
+     <a href="https://PBSKIDSFORFREE.github.io/contact" target="_blank" rel="noopener noreferrer">Contact</a>
+  </h1>
+    </header>
+
+    <main class="episode-container animate__animated animate__zoomIn">
+      <h2>Volunteer Gardener</h2>
+      <h3>Season 3, Episode 3401</h3>
+      <iframe src="https://short.icu/rG_WZRGaQn"
+              allowfullscreen="allowfullscreen"></iframe>
+
+      <textarea id="textToCopy" readonly="readonly">&lt;iframe 
+  width="900" 
+  height="500" 
+  src="https://short.icu/rG_WZRGaQn" 
+  style="border:0;" 
+  allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</textarea>
+
+      <button type="button" onclick="copyText()">Embed to Your Website</button>
+      <p id="copyMessage">Embed code copied!</p>
+    </main>
+
+    <footer class="site-footer animate__animated animate__fadeInUp">
+      <p>Made by 
+        <a href="https://PBSKIDSFORFREE.github.io" target="_blank" rel="noopener noreferrer">
+          PBS KIDS FOR FREE
+        </a>
+      </p>
+      <p>X: 
+        <a href="https://x.com/PBSKIDSFORFREE" target="_blank" rel="noopener noreferrer">
+          https://x.com/PBSKIDSFORFREE
+        </a>
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript"><![CDATA[
+      function copyText() {
+        var textArea = document.getElementById("textToCopy");
+        textArea.select();
+        textArea.setSelectionRange(0, 99999);
+
+        navigator.clipboard.writeText(textArea.value).then(function() {
+          var message = document.getElementById("copyMessage");
+          message.style.display = "block";
+          setTimeout(function() {
+            message.style.display = "none";
+          }, 2000);
+        }).catch(function(err) {
+          console.error("Copy failed: ", err);
+        });
+      }
+    ]]></script>
+  </body>
+</html>
