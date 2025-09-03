@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/styles.css">
 
   <!-- Animate.css (via unpkg for animations) -->
-  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
 
   <!-- Small Inline Style Overrides -->
   <style>
@@ -47,14 +47,24 @@
       margin-top: 10px;
     }
 
+    /* --- Cards Layout --- */
+    .content {
+      display: flex;
+      flex-wrap: wrap;   /* allows wrapping on smaller screens */
+      justify-content: center; /* centers horizontally */
+      gap: 20px;         /* space between cards */
+      padding: 20px;
+    }
+
     .card {
       background: #fff;
       border-radius: 20px;
       padding: 20px;
-      max-width: 400px;
-      margin: 40px auto;
+      max-width: 300px;
+      flex: 0 1 300px;   /* ensures consistent sizing */
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
+      text-align: center;
     }
 
     .card:hover {
@@ -94,7 +104,7 @@
     <h1>
       <a href="https://PBSKIDSFORFREE.github.io" target="_blank" rel="noopener noreferrer">PBS KIDS FOR FREE</a>
     </h1>
-        <h1>
+    <h1>
       <a href="https://PBSKIDSFORFREE.github.io/contact" target="_blank" rel="noopener noreferrer">Contact</a>
     </h1>
     <p class="tagline">Fun, Free & Educational Content for Kids</p>
@@ -102,27 +112,37 @@
 
   <!-- MAIN CONTENT -->
   <main class="content animate__animated animate__zoomIn">
+    
+    <!-- Card 1 -->
     <a href="https://pbskidsforfree.github.io/dainel-tiger's-neighborhood/" class="card-link">
       <div class="card">
         <img src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/raw/refs/heads/main/daniel.avif" alt="Daniel Tiger" class="card-img">
         <h2 class="card-title">Daniel Tiger’s Neighborhood</h2>
+      </div>
     </a>
-        <a href="https://pbskidsforfree.github.io/Tennessee-is-Talking/" class="card-link">
+
+    <!-- Card 2 -->
+    <a href="https://pbskidsforfree.github.io/Tennessee-is-Talking/" class="card-link">
       <div class="card">
         <img src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/raw/refs/heads/main/0dRK55l-asset-mezzanine-16x9-mBFIE1Q.avif" alt="TiT" class="card-img">
         <h2 class="card-title">Tennessee is Talking</h2>
+      </div>
     </a>
-                    <a href="https://pbskidsforfree.github.io/Volunteer-Gardener/" class="card-link">    
-            <img src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/nQOXe3s-asset-mezzanine-16x9-0DGc1xd.png?raw=true" alt="Volunteer Gardener" class="card-img">
+
+    <!-- Card 3 -->
+    <a href="https://pbskidsforfree.github.io/Volunteer-Gardener/" class="card-link">    
+      <div class="card">
+        <img src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/blob/main/nQOXe3s-asset-mezzanine-16x9-0DGc1xd.png?raw=true" alt="Volunteer Gardener" class="card-img">
         <h2 class="card-title">Volunteer Gardener</h2>
+      </div>
     </a>
-          </div>
+
   </main>
 
   <!-- FOOTER -->
   <footer class="site-footer animate__animated animate__fadeInUp">
     <p>Made by <a href="https://PBSKIDSFORFREE.github.io" target="_blank" rel="noopener noreferrer">PBS KIDS FOR FREE</a></p>
-        <p>X: <a href="https://x.com/PBSKIDSFORFREE" target="_blank" rel="noopener noreferrer">https://x.com/PBSKIDSFORFREE</a></p>
+    <p>X: <a href="https://x.com/PBSKIDSFORFREE" target="_blank" rel="noopener noreferrer">https://x.com/PBSKIDSFORFREE</a></p>
   </footer>
 
   <!-- External JS Libraries -->
