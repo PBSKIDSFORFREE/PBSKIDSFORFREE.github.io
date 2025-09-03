@@ -3,7 +3,7 @@
 
 <Module>
   <ModulePrefs 
-      title="Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE" 
+      title="Volunteer Gardener | PBS KIDS FOR FREE" 
   />
   <Icon src="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/raw/refs/heads/main/favicon.ico"/>
 
@@ -137,8 +137,8 @@
 
   <!-- MAIN CONTENT -->
   <main class="episode-container animate__animated animate__zoomIn">
-    <h2>Daniel Tiger’s Neighborhood</h2>
-    <h3>Season 7, Episode 9</h3>
+    <h2>Volunteer Gardener</h2>
+    <h3>Season 3, Episode 3402</h3>
 
     <!-- Video Embed -->
     <iframe src="https://tinyurl.com/f3a9c7e2b1d6f8a4e9c3b7d2a6e1c" allowfullscreen></iframe>
