@@ -8,7 +8,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Daniel Tiger’s Neighborhood | PBS KIDS FOR FREE</title>
+        <title>Volunteer Gardener | PBS KIDS FOR FREE</title>
         <link rel="icon" type="image/x-icon" href="https://github.com/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/raw/refs/heads/main/favicon.ico"/>
       </head>
       <body>
