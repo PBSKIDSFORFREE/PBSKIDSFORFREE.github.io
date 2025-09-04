@@ -24,8 +24,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- External CSS (from GitHub Pages via jsDelivr) -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PBSKIDSFORFREE/PBSKIDSFORFREE.github.io/styles.css">
-
   <!-- Animate.css (via unpkg) -->
   <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.min.css">
 
